@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Controls">
+      <UniqueIdentifier>{035d9500-1a54-48fa-95e7-5e540c64fa58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{8b51cd76-a9d6-4c85-9f4f-e680a8d75c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{c7f9f1ae-d7cd-41a1-abe3-bd96c9c0054c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{eba42b1a-04ad-4883-ae24-fd2b776f9906}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Panel.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Button.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Controls.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\config.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\pch.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\resource.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ShellHelper.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIDrawer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIEngine.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIEnginePopupWindow.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIEngineWindow.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\WindowAnimation.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\HcMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Plane.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\MemoryBuffer.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Image.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Label.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ImageButton.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\RealWindow.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\video.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Layout.h">
+      <Filter>Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\dshowutil.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\DShowPlayer.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ResMgr.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Hai%27sGUI\HaisGUI\HaisGUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Hai%27sGUI\HaisGUI\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="big.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Controls.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Application.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\DllMain.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\UIEngine.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\UIEngineWindw.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\WindowAnimation.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Button.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Label.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\ImageButton.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\RealWindw.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\video.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Layout.cpp">
+      <Filter>Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\DShowPlayer.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\ResMgr.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Hai%27sGUI\HaisGUI\HcMath.inl">
+      <Filter>Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

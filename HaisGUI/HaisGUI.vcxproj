@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\DShowPlayer.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\dshowutil.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\HcMath.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Image.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ImageButton.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Label.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Layout.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\MemoryBuffer.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Plane.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\RealWindow.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ResMgr.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\video.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Button.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\config.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Controls.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Panel.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\pch.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\resource.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ShellHelper.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIDrawer.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIEngine.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIEnginePopupWindow.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIEngineWindow.h" />
+    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\WindowAnimation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Hai%27sGUI\HaisGUI\HaisGUI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Hai%27sGUI\HaisGUI\icon1.ico" />
+    <Image Include="big.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Application.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Button.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Controls.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\DllMain.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\DShowPlayer.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\ImageButton.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Label.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Layout.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\RealWindw.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\ResMgr.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\UIEngine.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\UIEngineWindw.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\video.cpp" />
+    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\WindowAnimation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Hai%27sGUI\HaisGUI\HcMath.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59AA1A1B-D019-49E5-89D2-E00910652EA0}</ProjectGuid>
+    <RootNamespace>HaisGUI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d2d1.lib;dwrite.lib;strmiids.lib;mfuuid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d2d1.lib;dwrite.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
