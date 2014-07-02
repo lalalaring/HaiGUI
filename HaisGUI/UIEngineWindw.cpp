@@ -126,16 +126,16 @@ void UIEngineWindow::OnPaint()
 
 	m_pRenderTarget->Clear(D2D1::ColorF(D2D1::ColorF::Magenta, 0.f));
 
-	for each (auto var in _panels)
-	{
-		var->Draw(dr);
-	}
+	//for each (auto var in _panels)
+	//{
+	//	var->Draw(dr);
+	//}
 
 	m_pRenderTarget->EndDraw();
-		for each (auto var in _rwlist)
-	{
-		var->Draw();
-	}
+	//	for each (auto var in _rwlist)
+	//{
+	//	var->Draw();
+	//}
 }
 
 void UIEngineWindow::SetBgColor()
@@ -150,8 +150,8 @@ void UIEngineWindow::SetBgBitmap()
 LRESULT UIEngineWindow::OnProc(UINT msg, WPARAM wParam, LPARAM lParam)
 {
 	POINT pos;
-	std::list<Panel*>::reverse_iterator iter;
-	Panel* temp;
+	//std::list<Panel*>::reverse_iterator iter;
+	//Panel* temp;
 	RECT rtClient;
 
 	GetClientRect(hWnd, &rtClient);
@@ -239,16 +239,16 @@ LRESULT UIEngineWindow::OnProc(UINT msg, WPARAM wParam, LPARAM lParam)
 	case WM_MOUSEMOVE:
 		GetCursorPos(&pos);
 		ScreenToClient(hWnd, &pos);
-		for (iter = _panels.rbegin(); iter != _panels.rend();)
-		{
-			temp = *iter;
-			if ((temp->_rect._x <= pos.x) && (temp->_rect._y <= pos.y) &&
-				(temp->_rect._x + temp->_rect._w >= pos.x) && (temp->_rect._y + temp->_rect._h >= pos.y))
-			{
-				return temp->OnProc(msg, wParam, lParam);
-			}
-			iter++;
-		}
+		//for (iter = _panels.rbegin(); iter != _panels.rend();)
+		//{
+		//	temp = *iter;
+		//	if ((temp->_rect._x <= pos.x) && (temp->_rect._y <= pos.y) &&
+		//		(temp->_rect._x + temp->_rect._w >= pos.x) && (temp->_rect._y + temp->_rect._h >= pos.y))
+		//	{
+		//		return temp->OnProc(msg, wParam, lParam);
+		//	}
+		//	iter++;
+		//}
 		break;
 
 	case WM_DESTROY:

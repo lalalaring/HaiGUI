@@ -11,26 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\DShowPlayer.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\dshowutil.h" />
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\HcMath.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Image.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ImageButton.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Label.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Layout.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\MemoryBuffer.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Plane.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\RealWindow.h" />
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ResMgr.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\video.h" />
     <ClInclude Include="Application.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Button.h" />
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\config.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Controls.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Panel.h" />
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\pch.h" />
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\resource.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ShellHelper.h" />
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIDrawer.h" />
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIEngine.h" />
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIEnginePopupWindow.h" />
@@ -47,18 +33,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Application.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Button.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Controls.cpp" />
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\DllMain.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\DShowPlayer.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\ImageButton.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Label.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Layout.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\RealWindw.cpp" />
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\ResMgr.cpp" />
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\UIEngine.cpp" />
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\UIEngineWindw.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\video.cpp" />
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\WindowAnimation.cpp" />
   </ItemGroup>
   <ItemGroup>

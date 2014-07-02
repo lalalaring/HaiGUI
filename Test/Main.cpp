@@ -3,8 +3,8 @@
 #include "config.h"
 #include "Application.h"
 #include "UIEnginePopupWindow.h"
-#include "Panel.h"
-#include "DShowPlayer.h"
+//#include "Panel.h"
+//#include "DShowPlayer.h"
 
 int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {
@@ -33,9 +33,9 @@ int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int n
 	pp->CreateButton(1);
 	pp->CreateLabel(2);
 	pp->GetControlsByID(2)->SetText(L"ccc");*/
-	RealWindow* rw = new RealWindow();
-	rw->Create(wd->GetHWND());
-	wd->AddRealWindow(rw);
+	//RealWindow* rw = new RealWindow();
+	//rw->Create(wd->GetHWND());
+	//wd->AddRealWindow(rw);
 
 	return Application::Get()->Run();
 }

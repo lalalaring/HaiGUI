@@ -19,15 +19,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Panel.h">
-      <Filter>Controls</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Button.h">
-      <Filter>Controls</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Controls.h">
-      <Filter>Controls</Filter>
-    </ClInclude>
     <ClInclude Include="Application.h">
       <Filter>Base</Filter>
     </ClInclude>
@@ -38,9 +29,6 @@
       <Filter>Base</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\resource.h">
-      <Filter>Base</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ShellHelper.h">
       <Filter>Base</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\UIDrawer.h">
@@ -60,28 +48,6 @@
     </ClInclude>
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\HcMath.h">
       <Filter>Math</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Plane.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\MemoryBuffer.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Image.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Label.h">
-      <Filter>Controls</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ImageButton.h">
-      <Filter>Controls</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\RealWindow.h">
-      <Filter>Controls</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\video.h" />
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\Layout.h">
-      <Filter>Controls</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\dshowutil.h">
-      <Filter>Extra</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\DShowPlayer.h">
-      <Filter>Extra</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Hai%27sGUI\HaisGUI\ResMgr.h">
       <Filter>Base</Filter>
@@ -104,9 +70,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Controls.cpp">
-      <Filter>Controls</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Application.cpp">
       <Filter>Base</Filter>
     </ClCompile>
@@ -121,25 +84,6 @@
     </ClCompile>
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\WindowAnimation.cpp">
       <Filter>Base</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Button.cpp">
-      <Filter>Controls</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Label.cpp">
-      <Filter>Controls</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\ImageButton.cpp">
-      <Filter>Controls</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\RealWindw.cpp">
-      <Filter>Controls</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\video.cpp" />
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\Layout.cpp">
-      <Filter>Controls</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\DShowPlayer.cpp">
-      <Filter>Extra</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Hai%27sGUI\HaisGUI\ResMgr.cpp">
       <Filter>Base</Filter>
